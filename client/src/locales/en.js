@@ -6,6 +6,7 @@ export default {
     orders: 'Orders',
     finance: 'Finance',
     demandForecast: 'Demand Forecast',
+    restocking: 'Restocking',
     companyName: 'Catalyst Components',
     subtitle: 'Inventory Management System'
   },
@@ -112,6 +113,22 @@ export default {
     onTimeDelivery: 'On-Time Delivery',
     itemsCount: '{count} items',
     quantity: 'Qty',
+    submitted: {
+      title: 'Submitted Orders',
+      orderId: 'Order ID',
+      submittedDate: 'Submitted',
+      warehouse: 'Warehouse',
+      items: 'Items',
+      leadTime: 'Lead Time',
+      leadTimeDays: '{n} days',
+      expectedDelivery: 'Expected Delivery',
+      total: 'Total',
+      status: 'Status',
+      statusLabels: {
+        submitted: 'Submitted'
+      },
+      unitCost: 'Unit cost'
+    },
     table: {
       orderNumber: 'Order Number',
       orderId: 'Order ID',
@@ -196,6 +213,40 @@ export default {
     orderStatus: 'Order Status',
     all: 'All',
     allMonths: 'All Months'
+  },
+
+  restocking: {
+    title: 'Restocking',
+    description: 'Plan a restock order against a budget based on forecasted demand',
+    warehouse: 'Warehouse',
+    budget: 'Budget',
+    selectedTotal: 'Selected Total',
+    remaining: 'Remaining',
+    leadTime: 'Lead Time',
+    leadTimeDays: '{n} days',
+    expectedDelivery: 'Expected delivery: {date}',
+    itemsToRestock: 'Items to Restock',
+    selectedCount: '{count} selected',
+    noItems: 'No forecast data available',
+    placeOrder: 'Place Order',
+    placing: 'Placing order...',
+    overBudget: 'Selected total exceeds the budget',
+    orderPlaced: 'Order {id} was submitted.',
+    viewOrders: 'View orders',
+    orderFailed: 'Failed to place order',
+    loadFailed: 'Failed to load demand forecasts',
+    table: {
+      select: 'Select',
+      sku: 'SKU',
+      itemName: 'Item Name',
+      trend: 'Trend',
+      current: 'Current',
+      forecast: 'Forecast',
+      gap: 'Gap',
+      unitCost: 'Unit Cost',
+      quantity: 'Quantity',
+      lineTotal: 'Line Total'
+    }
   },
 
   // Statuses
